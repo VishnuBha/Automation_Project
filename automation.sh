@@ -31,3 +31,4 @@ echo ${myname}-httpd-logs-${timestamp}.tar "tar file created in tmp directory"
 s3_bucket="upgrad-vishnu"
 aws s3 cp /tmp/${myname}-httpd-logs-${timestamp}.tar  s3://${s3_bucket}/${myname}-http-logs-${timestamp}.tar
 echo "Tar file Archived to S3 bucket successfully" ${myname}-httpd-logs-${timestamp}.tar
+#-----------------------Script ended-------------------------------
